@@ -1,0 +1,11 @@
+string=input("Enter a string")
+v=0
+c=0
+for ch in string:
+    if ch.isalpha():
+        if ch in "aeiouAEIOU":
+            v+=1
+        else:
+            c+=1
+print("Number of vowels:",v)
+print("Number of consonants:",c)
